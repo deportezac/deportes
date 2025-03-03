@@ -1,0 +1,130 @@
+document.addEventListener('DOMContentLoaded', function() {
+  const data = [
+    { nombre: "Beatriz López Diosdado", cargo: "Regidor", area: "Regidor", ext: "110", telefono: "4924914432" },
+    { nombre: "David Arturo García Lira", cargo: "Regidor", area: "Regidor", ext: "112", telefono: "492 923 94 21" },
+    { nombre: "M. EN E Claudia Anaya Vázquez", cargo: "Regidor", area: "Regidor", ext: "789", telefono: "492 923 94 21" },
+    { nombre: "Christian Martínez Rosales", cargo: "Regidor", area: "Regidor", ext: "118", telefono: "492 923 94 21" },
+    { nombre: "Carmen Angélica Lira Sandoval", cargo: "Regidor", area: "Regidor", ext: "120", telefono: "492 923 94 21" },
+    { nombre: "Lic. Jessica Astrid Jayme Magaña", cargo: "Regidor", area: "Regidor", ext: "303", telefono: "492 923 94 21" },
+    { nombre: "Lic. Sandra Verónica Báez Almanza", cargo: "Regidor", area: "Regidor", ext: "404", telefono: "492 923 94 21" },
+    { nombre: "L.A.E. Marcela Alatorre Zesat", cargo: "Regidor", area: "Regidor", ext: "505", telefono: "492 923 94 21" },
+    { nombre: "L.C. y T.C Juan Carlos González Gándara", cargo: "Regidor", area: "Regidor", ext: "606", telefono: "492 923 94 21" },
+    { nombre: "Reginaldo Ávila Arciniaga", cargo: "Regidor", area: "Regidor", ext: "707", telefono: "492 923 94 21" },
+    { nombre: "Mtro. Oscar Contreras Vázquez", cargo: "Regidor", area: "Regidor", ext: "808", telefono: "492 923 94 21" },
+    { nombre: "Bernardo Ibarra Juárez", cargo: "Regidor", area: "Regidor", ext: "909", telefono: "492 923 94 21" },
+    { nombre: "Mtra. Mariana Anaya Mota", cargo: "Regidor", area: "Regidor", ext: "111", telefono: "492 923 94 21" },
+ 
+    
+    { nombre: "LIC. MIGUEL ÁNGEL VARELA PINEDO", cargo: "PRESIDENTE MUNICIPAL", area: "PRESIDENTE MUNICIPAL", ext: "202", telefono: "492 923 94 21" },
+    { nombre: "LIC. ALMA JUDITH DE LEÓN AYALA", cargo: "SECRETARIA DE TESORERIA Y FINANZAS MUNICIPALES", area: "SFINANZAS MUNICIPALES", ext: "303", telefono: "555-2345" },
+    { nombre: "M. EN F. ERIK FABIÁN MUÑOZ ROMÁN	", cargo: "SECRETARIO DEL AYUNTAMIENTO Y GOBIERNO MUNICIPAL", area: "GOBIERNO MUNICIPAL", ext: "404", telefono: "555-6789" },
+    { nombre: "DR. MANUEL CASTILLO ROMERO", cargo: "DIRECTOR GENERAL DE INNOVACION Y DESARROLLO ECONOMICO SUSTENTABLE MUNICIPAL", area: "INNOVACION", ext: "505", telefono: "555-0123" },
+    { nombre: "LIC. NANCY ESPINOZA MEDINA", cargo: "DIRECTORA GENERAL DE SOLIDARIDAD Y DESARROLLO HUMANO MUNICIPAL", area: "DESARROLLO HUMANO MUNICIPAL", ext: "606", telefono: "555-4567" },
+    { nombre: "MTRA. GUADALUPE CELIA FLORES ESCOBEDO", cargo: "DIRECTORA GENERAL DE CALIDAD DE VIDA Y SERVICIOS PUBLICOS MUNICIPALES", area: "PUBLICOS MUNICIPALES", ext: "707", telefono: "555-8901" },
+    { nombre: "M EN C. LUIS FERNANDO MALDONADO MORENO ", cargo: "DIRECTOR GENERAL DE INFRAESTRUCTURA Y OBRA PUBLICA MUNICIPAL", area: "SOBRA PUBLICA MUNICIPAL", ext: "808", telefono: "555-2346" },
+    { nombre: "ARQ. OMAR ALEJANDRO SILVA LUNA", cargo: "DIRECTOR GENERAL DE DESARROLLO URBANO Y PATRIMONIO MUNICIPAL", area: "DESARROLLO URBANO", ext: "909", telefono: "555-6790" },
+    { nombre: "LIC. MITZIA PELAEZ MEJÍA", cargo: "DIRECTORA DEL DIF MUNICIPAL", area: "DIRECTORA DEL DIF MUNICIPAL", ext: "505", telefono: "555-0123" },
+    { nombre: "MTRA, WENDY GUADALUPE VALDEZ ORGANISTA	", cargo: "SINDICO MUNICIPAL", area: "SINDICO MUNICIPAL", ext: "606", telefono: "555-4567" },
+    { nombre: "MTRO, GERARDO ZAMORA CASTILLO", cargo: "JEFE DE GABINETE MUNICIPAL", area: "JEFE DE GABINETE MUNICIPAL", ext: "707", telefono: "555-8901" },
+    { nombre: "DRA. ELBA LILIANA GARCIA ARREDONDO", cargo: "TITULAR DEL ORGANO INTERNO", area: "ORGANO INTERNOL", ext: "808", telefono: "555-2346" },
+    { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
+   
+    { nombre: "M. en F. Erik Fabian Muñoz Román", cargo: "Secretario del ayuntamiento y Gobierno Municipal", area: "Gobierno Municipal", ext: "111", telefono: "555-0124" },
+    { nombre: "Mtro. Gerardo Zamora Castillo", cargo: "Jefe de gabinete municipal ", area: "Jefe de gabinete municipal ", ext: "606", telefono: "555-4567" },
+    { nombre: "Lic. Cesar Alejandro Herrera Ceniceros", cargo: "Secretario particular Municipal", area: "Secretario particular Municipal", ext: "707", telefono: "555-8901" },
+    { nombre: "Ing. Luis Fernando Maldonado Moreno", cargo: "Director General de Infraestructura y Obra Pública Municipal", area: "Obra Pública Municipal", ext: "808", telefono: "555-2346" },
+    { nombre: "Mtra. Guadalupe Celia Flores Escobedo", cargo: "Directora General de Calidad de Vida y Servicios Públicos Municipales", area: "Servicios Públicos Municipales", ext: "909", telefono: "555-6790" },
+    
+    { nombre: "Mtro. Isaac Alejandro Rivera Ruvalcaba", cargo: "Director General de Medio Ambiente Municipal", area: "Medio Ambiente Municipal", ext: "111", telefono: "555-0124" },
+    { nombre: "Arq. Omar Alejandro Silva Luna", cargo: "Director General de Medio Desarrollo Ambiente Municipal", area: "Desarrollo Ambiente Municipal", ext: "606", telefono: "555-4567" },
+    { nombre: "Dr. Manuel Castillo Romero", cargo: "Director General de Innovación y Desarrollo Económico Sustentable Municipal", area: "Desarrollo Económico", ext: "707", telefono: "555-8901" },
+    { nombre: "Lic. En Psic. María del Mar de Ávila Ibargüengoitia", cargo: "Directora General de Cultura Municipal", area: "Cultura Municipal", ext: "808", telefono: "555-2346" },
+    { nombre: "Lic. Marco Antonio García Acuña", cargo: "Director General de Gestión de Personal y Relaciones Laborales Municipal", area: "Gestión de Personal", ext: "909", telefono: "555-6790" },
+
+    { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "4921628129" },
+    { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "555-8902" }
+  ];
+
+  const tableBody = document.getElementById('tableBody');
+  const searchInput = document.getElementById('searchInput');
+  const prevPageButton = document.getElementById('prevPage');
+  const nextPageButton = document.getElementById('nextPage');
+  const pageInfoSpan = document.getElementById('pageInfo');
+  const exportButton = document.getElementById('exportButton');
+
+  const itemsPerPage = 7;
+  let currentPage = 1;
+  let filteredData = [...data];
+
+  function displayData() {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const pageData = filteredData.slice(startIndex, endIndex);
+
+    tableBody.innerHTML = '';
+    pageData.forEach(item => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${item.nombre}</td>
+        <td>${item.cargo}</td>
+        <td>${item.area}</td>
+        <td>${item.ext}</td>
+        <td>${item.telefono}</td>
+      `;
+      tableBody.appendChild(row);
+    });
+
+    updatePaginationInfo();
+  }
+
+  function updatePaginationInfo() {
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+    pageInfoSpan.textContent = `Página ${currentPage} de ${totalPages}`;
+
+    prevPageButton.disabled = currentPage === 1;
+    nextPageButton.disabled = currentPage === totalPages || totalPages === 0;
+  }
+
+  function filterData() {
+    const searchTerm = searchInput.value.toLowerCase();
+    filteredData = data.filter(item => {
+      return (
+        item.nombre.toLowerCase().includes(searchTerm) ||
+        item.cargo.toLowerCase().includes(searchTerm) ||
+        item.area.toLowerCase().includes(searchTerm) ||
+        item.ext.toLowerCase().includes(searchTerm) ||
+        item.telefono.toLowerCase().includes(searchTerm)
+      );
+    });
+    currentPage = 1;
+    displayData();
+  }
+
+  function exportToExcel() {
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.json_to_sheet(filteredData);
+    XLSX.utils.book_append_sheet(wb, ws, "Directorio");
+    XLSX.writeFile(wb, "directoriopmz.xlsx");
+  }
+
+  searchInput.addEventListener('input', filterData);
+
+  prevPageButton.addEventListener('click', () => {
+    if (currentPage > 1) {
+      currentPage--;
+      displayData();
+    }
+  });
+
+  nextPageButton.addEventListener('click', () => {
+    const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+    if (currentPage < totalPages) {
+      currentPage++;
+      displayData();
+    }
+  });
+
+  exportButton.addEventListener('click', exportToExcel);
+
+  displayData();
+});
