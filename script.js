@@ -16,33 +16,34 @@ document.addEventListener('DOMContentLoaded', function() {
  
     
     { nombre: "LIC. MIGUEL ÁNGEL VARELA PINEDO", cargo: "PRESIDENTE MUNICIPAL", area: "PRESIDENTE MUNICIPAL", ext: "202", telefono: "492 923 94 21" },
-    { nombre: "LIC. ALMA JUDITH DE LEÓN AYALA", cargo: "SECRETARIA DE TESORERIA Y FINANZAS MUNICIPALES", area: "SFINANZAS MUNICIPALES", ext: "303", telefono: "555-2345" },
-    { nombre: "M. EN F. ERIK FABIÁN MUÑOZ ROMÁN	", cargo: "SECRETARIO DEL AYUNTAMIENTO Y GOBIERNO MUNICIPAL", area: "GOBIERNO MUNICIPAL", ext: "404", telefono: "555-6789" },
-    { nombre: "DR. MANUEL CASTILLO ROMERO", cargo: "DIRECTOR GENERAL DE INNOVACION Y DESARROLLO ECONOMICO SUSTENTABLE MUNICIPAL", area: "INNOVACION", ext: "505", telefono: "555-0123" },
-    { nombre: "LIC. NANCY ESPINOZA MEDINA", cargo: "DIRECTORA GENERAL DE SOLIDARIDAD Y DESARROLLO HUMANO MUNICIPAL", area: "DESARROLLO HUMANO MUNICIPAL", ext: "606", telefono: "555-4567" },
-    { nombre: "MTRA. GUADALUPE CELIA FLORES ESCOBEDO", cargo: "DIRECTORA GENERAL DE CALIDAD DE VIDA Y SERVICIOS PUBLICOS MUNICIPALES", area: "PUBLICOS MUNICIPALES", ext: "707", telefono: "555-8901" },
-    { nombre: "M EN C. LUIS FERNANDO MALDONADO MORENO ", cargo: "DIRECTOR GENERAL DE INFRAESTRUCTURA Y OBRA PUBLICA MUNICIPAL", area: "SOBRA PUBLICA MUNICIPAL", ext: "808", telefono: "555-2346" },
-    { nombre: "ARQ. OMAR ALEJANDRO SILVA LUNA", cargo: "DIRECTOR GENERAL DE DESARROLLO URBANO Y PATRIMONIO MUNICIPAL", area: "DESARROLLO URBANO", ext: "909", telefono: "555-6790" },
-    { nombre: "LIC. MITZIA PELAEZ MEJÍA", cargo: "DIRECTORA DEL DIF MUNICIPAL", area: "DIRECTORA DEL DIF MUNICIPAL", ext: "505", telefono: "555-0123" },
-    { nombre: "MTRA, WENDY GUADALUPE VALDEZ ORGANISTA	", cargo: "SINDICO MUNICIPAL", area: "SINDICO MUNICIPAL", ext: "606", telefono: "555-4567" },
-    { nombre: "MTRO, GERARDO ZAMORA CASTILLO", cargo: "JEFE DE GABINETE MUNICIPAL", area: "JEFE DE GABINETE MUNICIPAL", ext: "707", telefono: "555-8901" },
-    { nombre: "DRA. ELBA LILIANA GARCIA ARREDONDO", cargo: "TITULAR DEL ORGANO INTERNO", area: "ORGANO INTERNOL", ext: "808", telefono: "555-2346" },
+    { nombre: "LIC. ALMA JUDITH DE LEÓN AYALA", cargo: "SECRETARIA DE TESORERIA Y FINANZAS MUNICIPALES", area: "SFINANZAS MUNICIPALES", ext: "303", telefono: "492 923 94 21" },
+    { nombre: "M. EN F. ERIK FABIÁN MUÑOZ ROMÁN	", cargo: "SECRETARIO DEL AYUNTAMIENTO Y GOBIERNO MUNICIPAL", area: "GOBIERNO MUNICIPAL", ext: "404", telefono: "492 923 94 21" },
+    { nombre: "DR. MANUEL CASTILLO ROMERO", cargo: "DIRECTOR GENERAL DE INNOVACION Y DESARROLLO ECONOMICO SUSTENTABLE MUNICIPAL", area: "INNOVACION", ext: "505", telefono: "492 923 94 21" },
+    { nombre: "LIC. NANCY ESPINOZA MEDINA", cargo: "DIRECTORA GENERAL DE SOLIDARIDAD Y DESARROLLO HUMANO MUNICIPAL", area: "DESARROLLO HUMANO MUNICIPAL", ext: "606", telefono: "492 923 94 21" },
+    { nombre: "MTRA. GUADALUPE CELIA FLORES ESCOBEDO", cargo: "DIRECTORA GENERAL DE CALIDAD DE VIDA Y SERVICIOS PUBLICOS MUNICIPALES", area: "PUBLICOS MUNICIPALES", ext: "707", telefono: "492 923 94 21" },
+    { nombre: "M EN C. LUIS FERNANDO MALDONADO MORENO ", cargo: "DIRECTOR GENERAL DE INFRAESTRUCTURA Y OBRA PUBLICA MUNICIPAL", area: "SOBRA PUBLICA MUNICIPAL", ext: "808", telefono: "492 923 94 21" },
+    { nombre: "ARQ. OMAR ALEJANDRO SILVA LUNA", cargo: "DIRECTOR GENERAL DE DESARROLLO URBANO Y PATRIMONIO MUNICIPAL", area: "DESARROLLO URBANO", ext: "909", telefono: "492 923 94 21" },
+    { nombre: "LIC. MITZIA PELAEZ MEJÍA", cargo: "DIRECTORA DEL DIF MUNICIPAL", area: "DIRECTORA DEL DIF MUNICIPAL", ext: "505", telefono: "492 923 94 21" },
+    { nombre: "MTRA, WENDY GUADALUPE VALDEZ ORGANISTA	", cargo: "SINDICO MUNICIPAL", area: "SINDICO MUNICIPAL", ext: "606", telefono: "492 923 94 21" },
+    { nombre: "MTRO, GERARDO ZAMORA CASTILLO", cargo: "JEFE DE GABINETE MUNICIPAL", area: "JEFE DE GABINETE MUNICIPAL", ext: "707", telefono: "492 923 94 21" },
+    { nombre: "DRA. ELBA LILIANA GARCIA ARREDONDO", cargo: "TITULAR DEL ORGANO INTERNO", area: "ORGANO INTERNOL", ext: "808", telefono: "492 923 94 21" },
     { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
    
-    { nombre: "M. en F. Erik Fabian Muñoz Román", cargo: "Secretario del ayuntamiento y Gobierno Municipal", area: "Gobierno Municipal", ext: "111", telefono: "555-0124" },
-    { nombre: "Mtro. Gerardo Zamora Castillo", cargo: "Jefe de gabinete municipal ", area: "Jefe de gabinete municipal ", ext: "606", telefono: "555-4567" },
-    { nombre: "Lic. Cesar Alejandro Herrera Ceniceros", cargo: "Secretario particular Municipal", area: "Secretario particular Municipal", ext: "707", telefono: "555-8901" },
-    { nombre: "Ing. Luis Fernando Maldonado Moreno", cargo: "Director General de Infraestructura y Obra Pública Municipal", area: "Obra Pública Municipal", ext: "808", telefono: "555-2346" },
-    { nombre: "Mtra. Guadalupe Celia Flores Escobedo", cargo: "Directora General de Calidad de Vida y Servicios Públicos Municipales", area: "Servicios Públicos Municipales", ext: "909", telefono: "555-6790" },
+    { nombre: "M. en F. Erik Fabian Muñoz Román", cargo: "Secretario del ayuntamiento y Gobierno Municipal", area: "Gobierno Municipal", ext: "111", telefono: "492 923 94 21" },
+    { nombre: "Mtro. Gerardo Zamora Castillo", cargo: "Jefe de gabinete municipal ", area: "Jefe de gabinete municipal ", ext: "606", telefono: "492 923 94 21" },
+    { nombre: "Lic. Cesar Alejandro Herrera Ceniceros", cargo: "Secretario particular Municipal", area: "Secretario particular Municipal", ext: "707", telefono: "492 923 94 21" },
+    { nombre: "Ing. Luis Fernando Maldonado Moreno", cargo: "Director General de Infraestructura y Obra Pública Municipal", area: "Obra Pública Municipal", ext: "808", telefono: "492 923 94 21" },
+    { nombre: "Mtra. Guadalupe Celia Flores Escobedo", cargo: "Directora General de Calidad de Vida y Servicios Públicos Municipales", area: "Servicios Públicos Municipales", ext: "909", telefono: "492 923 94 21" },
     
-    { nombre: "Mtro. Isaac Alejandro Rivera Ruvalcaba", cargo: "Director General de Medio Ambiente Municipal", area: "Medio Ambiente Municipal", ext: "111", telefono: "555-0124" },
-    { nombre: "Arq. Omar Alejandro Silva Luna", cargo: "Director General de Medio Desarrollo Ambiente Municipal", area: "Desarrollo Ambiente Municipal", ext: "606", telefono: "555-4567" },
-    { nombre: "Dr. Manuel Castillo Romero", cargo: "Director General de Innovación y Desarrollo Económico Sustentable Municipal", area: "Desarrollo Económico", ext: "707", telefono: "555-8901" },
-    { nombre: "Lic. En Psic. María del Mar de Ávila Ibargüengoitia", cargo: "Directora General de Cultura Municipal", area: "Cultura Municipal", ext: "808", telefono: "555-2346" },
-    { nombre: "Lic. Marco Antonio García Acuña", cargo: "Director General de Gestión de Personal y Relaciones Laborales Municipal", area: "Gestión de Personal", ext: "909", telefono: "555-6790" },
+    { nombre: "Mtro. Isaac Alejandro Rivera Ruvalcaba", cargo: "Director General de Medio Ambiente Municipal", area: "Medio Ambiente Municipal", ext: "111", telefono: "492 923 94 21" },
+    { nombre: "Arq. Omar Alejandro Silva Luna", cargo: "Director General de Medio Desarrollo Ambiente Municipal", area: "Desarrollo Ambiente Municipal", ext: "606", telefono: "492 923 94 21" },
+    { nombre: "Dr. Manuel Castillo Romero", cargo: "Director General de Innovación y Desarrollo Económico Sustentable Municipal", area: "Desarrollo Económico", ext: "707", telefono: "492 923 94 21" },
+    { nombre: "Lic. En Psic. María del Mar de Ávila Ibargüengoitia", cargo: "Directora General de Cultura Municipal", area: "Cultura Municipal", ext: "808", telefono: "492 923 94 21" },
+    { nombre: "Lic. Marco Antonio García Acuña", cargo: "Director General de Gestión de Personal y Relaciones Laborales Municipal", area: "Gestión de Personal", ext: "909", telefono: "492 923 94 21" },
 
-    { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "4921628129" },
-    { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "555-8902" }
+    { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "492 923 94 21" },
+    { nombre: "LIC. ÁNGEL GERARDO GAETA MORALES", cargo: "ENCARGADO DE DEPARTAMENTO DEL DEPORTE", area: "DESARROLLO HUMANO MUNICIPAL", ext: "909", telefono: "9278921" },
+    { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" }
   ];
 
   const tableBody = document.getElementById('tableBody');
