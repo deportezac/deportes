@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "Mtro. Oscar Contreras Vázquez", cargo: "Regidor", area: "Regidor", ext: "808", telefono: "492 923 94 21" },
     { nombre: "Bernardo Ibarra Juárez", cargo: "Regidor", area: "Regidor", ext: "909", telefono: "492 923 94 21" },
     { nombre: "Mtra. Mariana Anaya Mota", cargo: "Regidor", area: "Regidor", ext: "111", telefono: "492 923 94 21" },
+    { nombre: "Lic. Juan Diego García Cruz", cargo: "Regidor", area: "Regidor", ext: "111", telefono: "492 923 94 21" },
  
     
     { nombre: "LIC. MIGUEL ÁNGEL VARELA PINEDO", cargo: "PRESIDENTE MUNICIPAL", area: "PRESIDENTE MUNICIPAL", ext: "202", telefono: "492 923 94 21" },
