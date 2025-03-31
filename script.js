@@ -28,8 +28,9 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "MTRA, WENDY GUADALUPE VALDEZ ORGANISTA	", cargo: "SINDICO MUNICIPAL", area: "SINDICO MUNICIPAL", ext: "606", telefono: "492 923 94 21" },
     { nombre: "MTRO, GERARDO ZAMORA CASTILLO", cargo: "JEFE DE GABINETE MUNICIPAL", area: "JEFE DE GABINETE MUNICIPAL", ext: "707", telefono: "492 923 94 21" },
     { nombre: "DRA. ELBA LILIANA GARCIA ARREDONDO", cargo: "TITULAR DEL ORGANO INTERNO", area: "ORGANO INTERNOL", ext: "808", telefono: "492 923 94 21" },
+    { nombre: "MTRO. GUSTAVO SERRANO OSORNIO", cargo: "SECRETARIO DE SEGURIDAD PUBLICA MUNICIPAL DE ZACATECAS", area: "SEGURIDAD PUBLICA", ext: "808", telefono: "492 923 94 21" },
     { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
-   
+
     { nombre: "M. en F. Erik Fabian Muñoz Román", cargo: "Secretario del ayuntamiento y Gobierno Municipal", area: "Gobierno Municipal", ext: "111", telefono: "492 923 94 21" },
     { nombre: "Mtro. Gerardo Zamora Castillo", cargo: "Jefe de gabinete municipal ", area: "Jefe de gabinete municipal ", ext: "606", telefono: "492 923 94 21" },
     { nombre: "Lic. Cesar Alejandro Herrera Ceniceros", cargo: "Secretario particular Municipal", area: "Secretario particular Municipal", ext: "707", telefono: "492 923 94 21" },
