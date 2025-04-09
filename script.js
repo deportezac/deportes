@@ -46,8 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "492 923 94 21" },
     { nombre: "LIC. ÁNGEL GERARDO GAETA MORALES", cargo: "ENCARGADO DE DEPARTAMENTO DEL DEPORTE", area: "DESARROLLO HUMANO MUNICIPAL", ext: "909", telefono: "9278921" },
-    { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" }
-    { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" }
+    { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" },
+
     { nombre: "Lic. Alejandra García Montoya", cargo: "UNIDAD DE ENLACE DE TRASPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA", area: "Secretaría del Ayuntamiento y Gobierno", ext: "333", telefono: "4924914438" }
   ];
 
