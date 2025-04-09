@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "MTRO. GUSTAVO SERRANO OSORNIO", cargo: "SECRETARIO DE SEGURIDAD PUBLICA MUNICIPAL DE ZACATECAS", area: "SEGURIDAD PUBLICA", ext: "808", telefono: "492 923 94 21" },
     { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
 
+    
     { nombre: "M. en F. Erik Fabian Muñoz Román", cargo: "Secretario del ayuntamiento y Gobierno Municipal", area: "Gobierno Municipal", ext: "111", telefono: "492 923 94 21" },
     { nombre: "Mtro. Gerardo Zamora Castillo", cargo: "Jefe de gabinete municipal ", area: "Jefe de gabinete municipal ", ext: "606", telefono: "492 923 94 21" },
     { nombre: "Lic. Cesar Alejandro Herrera Ceniceros", cargo: "Secretario particular Municipal", area: "Secretario particular Municipal", ext: "707", telefono: "492 923 94 21" },
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "Dr. Manuel Castillo Romero", cargo: "Director General de Innovación y Desarrollo Económico Sustentable Municipal", area: "Desarrollo Económico", ext: "707", telefono: "492 923 94 21" },
     { nombre: "Lic. En Psic. María del Mar de Ávila Ibargüengoitia", cargo: "Directora General de Cultura Municipal", area: "Cultura Municipal", ext: "808", telefono: "492 923 94 21" },
     { nombre: "Lic. Marco Antonio García Acuña", cargo: "Director General de Gestión de Personal y Relaciones Laborales Municipal", area: "Gestión de Personal", ext: "909", telefono: "492 923 94 21" },
-
+    
     { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "492 923 94 21" },
     { nombre: "LIC. ÁNGEL GERARDO GAETA MORALES", cargo: "ENCARGADO DE DEPARTAMENTO DEL DEPORTE", area: "DESARROLLO HUMANO MUNICIPAL", ext: "909", telefono: "9278921" },
     { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" }
