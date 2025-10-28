@@ -17,18 +17,19 @@ document.addEventListener('DOMContentLoaded', function() {
  
     
     { nombre: "LIC. MIGUEL ÁNGEL VARELA PINEDO", cargo: "PRESIDENTE MUNICIPAL", area: "PRESIDENTE MUNICIPAL", ext: "202", telefono: "492 923 94 21" },
-    { nombre: "LIC. ALMA JUDITH DE LEÓN AYALA", cargo: "SECRETARIA DE TESORERIA Y FINANZAS MUNICIPALES", area: "SFINANZAS MUNICIPALES", ext: "303", telefono: "492 923 94 21" },
+    { nombre: "LIC. FILIBERTO HERNANDEZ VENEGAS", cargo: "SECRETARIO DE TESORERIA Y FINANZAS MUNICIPALES", area: "FINANZAS MUNICIPALES", ext: "303", telefono: "492 923 94 21" },
     { nombre: "M. EN F. ERIK FABIÁN MUÑOZ ROMÁN	", cargo: "SECRETARIO DEL AYUNTAMIENTO Y GOBIERNO MUNICIPAL", area: "GOBIERNO MUNICIPAL", ext: "404", telefono: "492 923 94 21" },
     { nombre: "DR. MANUEL CASTILLO ROMERO", cargo: "DIRECTOR GENERAL DE INNOVACION Y DESARROLLO ECONOMICO SUSTENTABLE MUNICIPAL", area: "INNOVACION", ext: "505", telefono: "492 923 94 21" },
     { nombre: "LIC. NANCY ESPINOZA MEDINA", cargo: "DIRECTORA GENERAL DE SOLIDARIDAD Y DESARROLLO HUMANO MUNICIPAL", area: "DESARROLLO HUMANO MUNICIPAL", ext: "606", telefono: "492 923 94 21" },
     { nombre: "MTRA. GUADALUPE CELIA FLORES ESCOBEDO", cargo: "DIRECTORA GENERAL DE CALIDAD DE VIDA Y SERVICIOS PUBLICOS MUNICIPALES", area: "PUBLICOS MUNICIPALES", ext: "707", telefono: "492 923 94 21" },
     { nombre: "M EN C. LUIS FERNANDO MALDONADO MORENO ", cargo: "DIRECTOR GENERAL DE INFRAESTRUCTURA Y OBRA PUBLICA MUNICIPAL", area: "SOBRA PUBLICA MUNICIPAL", ext: "808", telefono: "492 923 94 21" },
-    { nombre: "ARQ. OMAR ALEJANDRO SILVA LUNA", cargo: "DIRECTOR GENERAL DE DESARROLLO URBANO Y PATRIMONIO MUNICIPAL", area: "DESARROLLO URBANO", ext: "909", telefono: "492 923 94 21" },
+    { nombre: "LIC. CARLOS EMILIO RAMIREZ BALTIERRA", cargo: "DIRECTOR GENERAL DE DESARROLLO URBANO Y PATRIMONIO MUNICIPAL", area: "DESARROLLO URBANO", ext: "909", telefono: "492 923 94 21" },
     { nombre: "LIC. MITZIA PELAEZ MEJÍA", cargo: "DIRECTORA DEL DIF MUNICIPAL", area: "DIRECTORA DEL DIF MUNICIPAL", ext: "505", telefono: "492 923 94 21" },
     { nombre: "MTRA, WENDY GUADALUPE VALDEZ ORGANISTA	", cargo: "SINDICO MUNICIPAL", area: "SINDICO MUNICIPAL", ext: "606", telefono: "492 923 94 21" },
     { nombre: "MTRO, GERARDO ZAMORA CASTILLO", cargo: "JEFE DE GABINETE MUNICIPAL", area: "JEFE DE GABINETE MUNICIPAL", ext: "707", telefono: "492 923 94 21" },
     { nombre: "DRA. ELBA LILIANA GARCIA ARREDONDO", cargo: "TITULAR DEL ORGANO INTERNO", area: "ORGANO INTERNOL", ext: "808", telefono: "492 923 94 21" },
     { nombre: "MTRO. GUSTAVO SERRANO OSORNIO", cargo: "SECRETARIO DE SEGURIDAD PUBLICA MUNICIPAL DE ZACATECAS", area: "SEGURIDAD PUBLICA", ext: "808", telefono: "492 923 94 21" },
+    { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
     { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
 
     
@@ -47,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "492 923 94 21" },
     { nombre: "LIC. ÁNGEL GERARDO GAETA MORALES", cargo: "ENCARGADO DE DEPARTAMENTO DEL DEPORTE", area: "DESARROLLO HUMANO MUNICIPAL", ext: "909", telefono: "9278921" },
     { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" },
-     { nombre: "LEF. Sergio Delgado Carrillo", cargo: "Oficial Mayor", area: "Oficial Mayor", ext: "333", telefono: "492 923 94 21" },
+     { nombre: "LEF. Fabián Márquez Salinas", cargo: "Oficial Mayor", area: "Oficial Mayor", ext: "333", telefono: "492 923 94 21" },
 
     
     { nombre: "Lic. Alejandra García Montoya", cargo: "UNIDAD DE ENLACE DE TRASPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA", area: "Secretaría del Ayuntamiento y Gobierno", ext: "333", telefono: "4924914438" }
