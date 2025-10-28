@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "DRA. ELBA LILIANA GARCIA ARREDONDO", cargo: "TITULAR DEL ORGANO INTERNO", area: "ORGANO INTERNOL", ext: "808", telefono: "492 923 94 21" },
     { nombre: "MTRO. GUSTAVO SERRANO OSORNIO", cargo: "SECRETARIO DE SEGURIDAD PUBLICA MUNICIPAL DE ZACATECAS", area: "SEGURIDAD PUBLICA", ext: "808", telefono: "492 923 94 21" },
     { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
-    { nombre: "L.CYT-C ISRAEL GONZALEZ", cargo: "COMUNICACIÓN SOCIAL", area: "COMUNICACIÓN SOCIAL", ext: "909", telefono: "555-6790" },
+    { nombre: "C. ALEJANDRO GOMEZ MARISCAL", cargo: "Director de análisis y riesgos del Ayuntamiento", area: "Director de Analsis del Ingreso", ext: "000", telefono: "000-0000" },
 
     
     { nombre: "M. en F. Erik Fabian Muñoz Román", cargo: "Secretario del ayuntamiento y Gobierno Municipal", area: "Gobierno Municipal", ext: "111", telefono: "492 923 94 21" },
@@ -46,12 +46,16 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "Lic. Marco Antonio García Acuña", cargo: "Director General de Gestión de Personal y Relaciones Laborales Municipal", area: "Gestión de Personal", ext: "909", telefono: "492 923 94 21" },
     
     { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "492 923 94 21" },
-    { nombre: "LIC. ÁNGEL GERARDO GAETA MORALES", cargo: "ENCARGADO DE DEPARTAMENTO DEL DEPORTE", area: "DESARROLLO HUMANO MUNICIPAL", ext: "909", telefono: "9278921" },
+    { nombre: "LIC. Ángel Gerardo Gaeta MORALES", cargo: "ENCARGADO DE DEPARTAMENTO DEL DEPORTE", area: "DESARROLLO HUMANO MUNICIPAL", ext: "909", telefono: "9278921" },
     { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" },
     { nombre: "Lic. Sergio Delgado Carrillo", cargo: "Oficial Mayor", area: "Oficial Mayor", ext: "333", telefono: "492 923 94 21" },
 
+    { nombre: "Lic. Raymundo Moreno Romero", cargo: "Jefe de Comunicaciòn y Voceria", area: "Jefe de Comunicaciòn y Voceria", ext: "000", telefono: "492 92 3 94 21" },
+    { nombre: "Lic. Alejandra García Montoya", cargo: "UNIDAD DE ENLACE DE TRASPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA", area: "Secretaría del Ayuntamiento y Gobierno", ext: "333", telefono: "4924914438" },
+    { nombre: "Dir. Francisco Oswaldo Caldera Murillo ;", cargo: "Director de la Policial Vial", area: "Director de la Policial Vial", ext: "000", telefono: "492 924 5320, 492 924 5420" }
+
+
     
-    { nombre: "Lic. Alejandra García Montoya", cargo: "UNIDAD DE ENLACE DE TRASPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA", area: "Secretaría del Ayuntamiento y Gobierno", ext: "333", telefono: "4924914438" }
   ];
 
   const tableBody = document.getElementById('tableBody');
