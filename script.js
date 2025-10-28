@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "Lic. Marco Antonio García Acuña", cargo: "Director General de Gestión de Personal y Relaciones Laborales Municipal", area: "Gestión de Personal", ext: "909", telefono: "492 923 94 21" },
     
     { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "492 923 94 21" },
-    { nombre: "LIC. Ángel Gerardo Gaeta MORALES", cargo: "ENCARGADO DE DEPARTAMENTO DEL DEPORTE", area: "DESARROLLO HUMANO MUNICIPAL", ext: "909", telefono: "9278921" },
+    { nombre: "LIC. Ángel Gerardo Gaeta MORALES", cargo: "Jefe del Departamento del Deporte", area: "Solidaridad y Desarrollo Humano Municipal", ext: "909", telefono: "9278921" },
     { nombre: "Lic. Jaime Murillo Falcón", cargo: "Jefe de Departamento de Evaluación del Personal", area: "Evaluación del Personal", ext: "333", telefono: "492 923 94 21" },
     { nombre: "Lic. Sergio Delgado Carrillo", cargo: "Oficial Mayor", area: "Oficial Mayor", ext: "333", telefono: "492 923 94 21" },
 
