@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     { nombre: "Lic. Raymundo Moreno Romero", cargo: "Jefe de Comunicaciòn y Voceria", area: "Jefe de Comunicaciòn y Voceria", ext: "000", telefono: "492 92 3 94 21" },
     { nombre: "Lic. Alejandra García Montoya", cargo: "UNIDAD DE ENLACE DE TRASPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA", area: "Secretaría del Ayuntamiento y Gobierno", ext: "333", telefono: "4924914438" },
-    { nombre: "Dir. Francisco Oswaldo Caldera Murillo ;", cargo: "Director de la Policial Vial", area: "Director de la Policial Vial", ext: "000", telefono: "492 924 5320, 492 924 5420" }
+    { nombre: "Dr. En A.P. Francisco Oswaldo Caldera Murillo", cargo: "Director de la Policía Vial Preventiva del Estado de Zacatecas", area: "Policía Vial Preventiva del Estado de Zacatecas", ext: "000", telefono: "492 924 5320, 492 924 5420" }
 
 
     
