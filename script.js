@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
  
     
     { nombre: "LIC. MIGUEL ÁNGEL VARELA PINEDO", cargo: "PRESIDENTE MUNICIPAL", area: "PRESIDENTE MUNICIPAL", ext: "202", telefono: "492 923 94 21" },
-    { nombre: "LIC. FILIBERTO HERNANDEZ VENEGAS", cargo: "SECRETARIO DE TESORERIA Y FINANZAS MUNICIPALES", area: "FINANZAS MUNICIPALES", ext: "303", telefono: "492 923 94 21" },
+    { nombre: "LIC. FILIBERTO HERNANDEZ VANEGAS", cargo: "SECRETARIO DE TESORERIA Y FINANZAS MUNICIPALES", area: "FINANZAS MUNICIPALES", ext: "303", telefono: "492 923 94 21" },
     { nombre: "DR. MANUEL CASTILLO ROMERO", cargo: "DIRECTOR GENERAL DE INNOVACION Y DESARROLLO ECONOMICO SUSTENTABLE MUNICIPAL", area: "INNOVACION", ext: "505", telefono: "492 923 94 21" },
     { nombre: "LIC. NANCY ESPINOZA MEDINA", cargo: "DIRECTORA GENERAL DE SOLIDARIDAD Y DESARROLLO HUMANO MUNICIPAL", area: "DESARROLLO HUMANO MUNICIPAL", ext: "606", telefono: "492 923 94 21" },
     { nombre: "MTRA. GUADALUPE CELIA FLORES ESCOBEDO", cargo: "DIRECTORA GENERAL DE CALIDAD DE VIDA Y SERVICIOS PUBLICOS MUNICIPALES", area: "PUBLICOS MUNICIPALES", ext: "707", telefono: "492 923 94 21" },
@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { nombre: "Dr. Manuel Castillo Romero", cargo: "Director General de Innovación y Desarrollo Económico Sustentable Municipal", area: "Desarrollo Económico", ext: "707", telefono: "492 923 94 21" },
     { nombre: "Lic. En Psic. María del Mar de Ávila Ibargüengoitia", cargo: "Directora General de Cultura Municipal", area: "Cultura Municipal", ext: "808", telefono: "492 923 94 21" },
     { nombre: "Lic. Marco Antonio García Acuña", cargo: "Director General de Gestión de Personal y Relaciones Laborales Municipal", area: "Gestión de Personal", ext: "909", telefono: "492 923 94 21" },
+    { nombre: "Ing. Hugo Armando Perez Moreno", cargo: "Directora General de Calidad de Vida y Servicios Públicos Municipales", area: "Alumbrado Público", ext: "909", telefono: "492 923 94 21" },
     
     { nombre: "I.Q. Víctor Manuel Miranda Castro", cargo: "Titular de Instituto de Planeación Municipal", area: "Planeación Municipal", ext: "122", telefono: "492 923 94 21" },
     { nombre: "LIC. Ángel Gerardo Gaeta MORALES", cargo: "Jefe del Departamento del Deporte", area: "Solidaridad y Desarrollo Humano Municipal", ext: "909", telefono: "9278921" },
